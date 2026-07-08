@@ -1,0 +1,32 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "html": "",
+    "metadata": {
+      "CreationDate": "D:20260305022021+00'00'",
+      "EncryptFilterName": null,
+      "IsAcroFormPresent": false,
+      "IsCollectionPresent": false,
+      "IsLinearized": false,
+      "IsSignaturesPresent": false,
+      "IsXFAPresent": false,
+      "Language": null,
+      "ModDate": "D:20260305022021+00'00'",
+      "PDFFormatVersion": "1.4",
+      "Producer": "Skia/PDF m66"
+    },
+    "publishedTime": "Thu, 05 Mar 2026 02:25:16 GMT",
+    "title": "EP-040326.pdf",
+    "url": "https://vet.alregn.ru/upload/EP-040326.pdf",
+    "usage": {
+      "tokens": 0
+    }
+  },
+  "meta": {
+    "usage": {
+      "tokens": 0
+    }
+  },
+  "status": 20000
+}
