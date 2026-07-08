@@ -1,0 +1,87 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Write production next.config.ts (static export + basePath)
+        run: |
+          cat > next.config.ts << 'CFGEOF'
+          import type { NextConfig } from "next";
+          const nextConfig: NextConfig = {
+            output: "export",
+            basePath: "/vet-heatmap",
+            assetPrefix: "/vet-heatmap/",
+            images: { unoptimized: true },
+            transpilePackages: ["maplibre-gl"],
+            typescript: { ignoreBuildErrors: true },
+            reactStrictMode: false,
+          };
+          export default nextConfig;
+          CFGEOF
+          cat next.config.ts
+
+      - name: Patch source files to use basePath in production
+        run: |
+          for f in src/lib/use-data.ts src/lib/use-municipalities.ts src/components/outbreak-map.tsx src/app/layout.tsx src/app/page.tsx; do
+            sed -i 's|const basePath = "";|const basePath = process.env.NODE_ENV === "production" ? "/vet-heatmap" : "";|' "$f"
+          done
+
+      - name: Build static export
+        env:
+          NODE_ENV: production
+          CI: "true"
+        run: bun run build
+
+      - name: Add .nojekyll
+        run: touch out/.nojekyll
+
+      - name: Verify build output
+        run: |
+          ls -la out/
+          test -f out/index.html || (echo "MISSING index.html" && exit 1)
+          test -f out/data/outbreaks.json || (echo "MISSING outbreaks.json" && exit 1)
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

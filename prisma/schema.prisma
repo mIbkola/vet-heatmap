@@ -1,0 +1,150 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+// ==========================================
+// ФЕДЕРАЛЬНЫЕ ОКРУГА
+// ==========================================
+
+model FederalDistrict {
+  id          String    @id @default(cuid())
+  code        String    @unique  // URF, SFO, DFO, etc.
+  name        String              // Уральский ФО
+  shortName   String              // УрФО
+  createdAt   DateTime  @default(now())
+
+  regions     Region[]
+
+  @@map("federal_districts")
+}
+
+// ==========================================
+// РЕГИОНЫ
+// ==========================================
+
+model Region {
+  id              String    @id @default(cuid())
+  isoCode         String    @unique  // RU-SVE, RU-KGN, etc.
+  name            String              // Свердловская область
+  shortName       String              // Свердловская
+  federalDistrictId String
+  lat             Float
+  lng             Float
+  zoom            Int       @default(7)
+  isActive        Boolean   @default(true)
+  createdAt       DateTime  @default(now())
+
+  federalDistrict FederalDistrict @relation(fields: [federalDistrictId], references: [id])
+  threats         Threat[]
+
+  @@map("regions")
+}
+
+// ==========================================
+// БОЛЕЗНИ
+// ==========================================
+
+model Disease {
+  id              String    @id @default(cuid())
+  name            String    @unique  // Ящур, АЧС, etc.
+  icon            String    @default("")  // emoji
+  isParticularly  Boolean   @default(false)  // особо опасная (Приказ МСХ №62)
+  description     String?
+  createdAt       DateTime  @default(now())
+
+  threats         Threat[]
+
+  @@map("diseases")
+}
+
+// ==========================================
+// УГРОЗЫ
+// ==========================================
+
+model Threat {
+  id              String    @id @default(cuid())
+  legacyId        Int       @unique  // ID из старой системы (1-433)
+  diseaseId       String
+  regionId        String
+  district        String              // район/область
+  threatLevel     String              // critical, high, medium, low
+  lat             Float
+  lng             Float
+  radius          Float               // km
+  description     String
+  affectedAnimals String              // JSON array: ["КРС", "МРС"]
+  season          String              // круглогодично / весна-осень
+  lastUpdate      String              // ISO date
+  isRealData      Boolean   @default(false)
+  outbreakStatus  String?             // active, monitoring, resolved
+  preventionSteps String              // JSON array
+  sources         String              // JSON array
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  disease         Disease   @relation(fields: [diseaseId], references: [id])
+  region          Region    @relation(fields: [regionId], references: [id])
+  dataSources     DataSource[]
+  recommendations Recommendation[]
+  vaccines        Vaccine[]
+
+  @@map("threats")
+}
+
+// ==========================================
+// ИСТОЧНИКИ ДАННЫХ (вспомогательная)
+// ==========================================
+
+model DataSource {
+  id          String    @id @default(cuid())
+  threatId    String
+  name        String
+  url         String    @default("")
+  date        String    @default("")
+  type        String    @default("official")  // official, media, scientific
+  createdAt   DateTime  @default(now())
+
+  threat      Threat    @relation(fields: [threatId], references: [id], onDelete: Cascade)
+
+  @@map("data_sources")
+}
+
+// ==========================================
+// РЕКОМЕНДАЦИИ (вспомогательная)
+// ==========================================
+
+model Recommendation {
+  id          String    @id @default(cuid())
+  threatId    String
+  title       String
+  description String    @default("")
+  priority    String    @default("planned")  // immediate, urgent, planned
+  createdAt   DateTime  @default(now())
+
+  threat      Threat    @relation(fields: [threatId], references: [id], onDelete: Cascade)
+
+  @@map("recommendations")
+}
+
+// ==========================================
+// ВАКЦИНЫ (вспомогательная)
+// ==========================================
+
+model Vaccine {
+  id            String    @id @default(cuid())
+  threatId      String
+  name          String
+  manufacturer  String    @default("")
+  schedule      String    @default("")
+  note          String    @default("")
+  createdAt     DateTime  @default(now())
+
+  threat        Threat    @relation(fields: [threatId], references: [id], onDelete: Cascade)
+
+  @@map("vaccines")
+}

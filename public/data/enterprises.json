@@ -1,0 +1,1571 @@
+{
+  "updated": "2026-07-07",
+  "sources": [
+    "rosstat_2024",
+    "agrounions_2024",
+    "curated"
+  ],
+  "total": 80,
+  "enterprises": [
+    {
+      "id": "pig-1",
+      "name": "АО «Мираторг» — Белгородская область",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Белгородская область",
+      "region_geo": "Belgorod",
+      "lat": 50.6,
+      "lon": 36.58,
+      "capacity": 500000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-2",
+      "name": "АО «Мираторг» — Брянская область",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Брянская область",
+      "region_geo": "Bryansk",
+      "lat": 53.25,
+      "lon": 34.37,
+      "capacity": 400000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-3",
+      "name": "ООО «Русагро-Инвест» — Тамбовская",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Тамбовская область",
+      "region_geo": "Tambov",
+      "lat": 52.72,
+      "lon": 41.45,
+      "capacity": 350000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-4",
+      "name": "ООО «Воронежская мясная компания»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Воронежская область",
+      "region_geo": "Voronezh",
+      "lat": 51.67,
+      "lon": 39.21,
+      "capacity": 300000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-5",
+      "name": "АО «Омский бекон»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Омская область",
+      "region_geo": "Omsk",
+      "lat": 55.0,
+      "lon": 73.37,
+      "capacity": 250000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-6",
+      "name": "ЗАО «Племзавод-Семеновский»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Воронежская область",
+      "region_geo": "Voronezh",
+      "lat": 51.3,
+      "lon": 39.1,
+      "capacity": 200000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-7",
+      "name": "ООО «Куриное царство» — свинина",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Тульская область",
+      "region_geo": "Tula",
+      "lat": 54.16,
+      "lon": 37.62,
+      "capacity": 180000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-8",
+      "name": "ГК «Агро-Белогорье»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Белгородская область",
+      "region_geo": "Belgorod",
+      "lat": 50.45,
+      "lon": 36.3,
+      "capacity": 170000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-9",
+      "name": "ООО «Свинокомплекс Атяшевский»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Республика Мордовия",
+      "region_geo": "Mordovia",
+      "lat": 54.18,
+      "lon": 45.51,
+      "capacity": 160000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-10",
+      "name": "ООО «Карелия Мясо»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Республика Карелия",
+      "region_geo": "Karelia",
+      "lat": 61.78,
+      "lon": 33.58,
+      "capacity": 120000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-11",
+      "name": "ООО «Заречное»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Воронежская область",
+      "region_geo": "Voronezh",
+      "lat": 51.5,
+      "lon": 39.5,
+      "capacity": 120000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-12",
+      "name": "АО «Псковагропроминвест»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Псковская область",
+      "region_geo": "Pskov",
+      "lat": 57.81,
+      "lon": 28.34,
+      "capacity": 100000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-13",
+      "name": "ООО «Кошира-Агро»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Тульская область",
+      "region_geo": "Tula",
+      "lat": 54.5,
+      "lon": 37.3,
+      "capacity": 95000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-14",
+      "name": "ООО «АПК «Михайловский»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Ростовская область",
+      "region_geo": "Rostov",
+      "lat": 47.25,
+      "lon": 40.18,
+      "capacity": 90000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-15",
+      "name": "ООО «Красноярский свинокомплекс»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Красноярский край",
+      "region_geo": "Krasnoyarsk",
+      "lat": 56.01,
+      "lon": 92.85,
+      "capacity": 85000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-16",
+      "name": "ООО «Сибирская губерния»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Алтайский край",
+      "region_geo": "Altay",
+      "lat": 52.55,
+      "lon": 78.62,
+      "capacity": 80000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-17",
+      "name": "АО «Племзавод «Россия»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Краснодарский край",
+      "region_geo": "Krasnodar",
+      "lat": 45.35,
+      "lon": 38.85,
+      "capacity": 75000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-18",
+      "name": "ООО «Данкон»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Ленинградская область",
+      "region_geo": "Leningrad",
+      "lat": 60.0,
+      "lon": 30.79,
+      "capacity": 70000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-19",
+      "name": "ООО «Кудьмозеро»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Архангельская область",
+      "region_geo": "Arkhangel'sk",
+      "lat": 64.54,
+      "lon": 40.54,
+      "capacity": 65000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-20",
+      "name": "ООО «Восточно-Сибирский свинокомплекс»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Иркутская область",
+      "region_geo": "Irkutsk",
+      "lat": 52.3,
+      "lon": 104.3,
+      "capacity": 60000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-21",
+      "name": "ЗАО «Агрофирма Боровская»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Тюменская область",
+      "region_geo": "Tyumen'",
+      "lat": 57.15,
+      "lon": 65.53,
+      "capacity": 55000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-22",
+      "name": "ООО «Зырянское»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Томская область",
+      "region_geo": "Tomsk",
+      "lat": 56.48,
+      "lon": 84.95,
+      "capacity": 50000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-23",
+      "name": "ООО «Агроактив»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Курская область",
+      "region_geo": "Kursk",
+      "lat": 51.73,
+      "lon": 36.19,
+      "capacity": 48000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-24",
+      "name": "ООО «Гвардейское»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Республика Крым",
+      "region_geo": "Crimea",
+      "lat": 45.04,
+      "lon": 41.97,
+      "capacity": 45000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-25",
+      "name": "ООО «АПК «Щёлково»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Московская область",
+      "region_geo": "Moskovskaya",
+      "lat": 55.75,
+      "lon": 37.95,
+      "capacity": 42000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-26",
+      "name": "АО «Агрокомплекс имени Н.И. Ткачёва»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Краснодарский край",
+      "region_geo": "Krasnodar",
+      "lat": 45.2,
+      "lon": 38.9,
+      "capacity": 40000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-27",
+      "name": "ООО «Мясоперерабатывающий комплекс «Сава»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Ульяновская область",
+      "region_geo": "Ul'yanovsk",
+      "lat": 54.32,
+      "lon": 48.39,
+      "capacity": 38000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-28",
+      "name": "ООО «Агро-Инвест» — свиноводство",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Пензенская область",
+      "region_geo": "Penza",
+      "lat": 53.19,
+      "lon": 45.0,
+      "capacity": 35000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-29",
+      "name": "ООО «Свинокомплекс «Ильина Гора»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Нижегородская область",
+      "region_geo": "Nizhegorod",
+      "lat": 56.33,
+      "lon": 44.0,
+      "capacity": 32000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "pig-30",
+      "name": "ООО «Племенной завод «Разуменский»",
+      "type": "pig_farm",
+      "type_ru": "Свиноводческий комплекс",
+      "region": "Белгородская область",
+      "region_geo": "Belgorod",
+      "lat": 50.45,
+      "lon": 36.4,
+      "capacity": 30000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "asf",
+        "csf",
+        "prrs",
+        "swine_erysipelas"
+      ]
+    },
+    {
+      "id": "poultry-31",
+      "name": "ООО «Белгранкорм»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Белгородская область",
+      "region_geo": "Belgorod",
+      "lat": 50.6,
+      "lon": 36.58,
+      "capacity": 12000000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-32",
+      "name": "ООО «Приосколье»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Белгородская область",
+      "region_geo": "Belgorod",
+      "lat": 50.4,
+      "lon": 37.3,
+      "capacity": 10000000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-33",
+      "name": "АО «Птицефабрика «Синявинская»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Ленинградская область",
+      "region_geo": "Leningrad",
+      "lat": 59.8,
+      "lon": 30.8,
+      "capacity": 8000000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-34",
+      "name": "ООО «Лебедяньмолоко» — птица",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Липецкая область",
+      "region_geo": "Lipetsk",
+      "lat": 52.6,
+      "lon": 39.57,
+      "capacity": 7000000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-35",
+      "name": "АО «Птицефабрика «Северная»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Московская область",
+      "region_geo": "Moskovskaya",
+      "lat": 55.9,
+      "lon": 37.5,
+      "capacity": 6500000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-36",
+      "name": "ООО «Куриное царство»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Тульская область",
+      "region_geo": "Tula",
+      "lat": 54.16,
+      "lon": 37.62,
+      "capacity": 6000000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-37",
+      "name": "АО «Башкирская птицефабрика»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Республика Башкортостан",
+      "region_geo": "Bashkortostan",
+      "lat": 54.74,
+      "lon": 56.04,
+      "capacity": 5500000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-38",
+      "name": "ООО «Птицефабрика «Васильевская»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Воронежская область",
+      "region_geo": "Voronezh",
+      "lat": 51.67,
+      "lon": 39.21,
+      "capacity": 5000000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-39",
+      "name": "АО «Птицефабрика «Чамзинская»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Республика Мордовия",
+      "region_geo": "Mordovia",
+      "lat": 54.18,
+      "lon": 45.51,
+      "capacity": 4500000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-40",
+      "name": "ООО «Агро-Белогорье» — птица",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Белгородская область",
+      "region_geo": "Belgorod",
+      "lat": 50.45,
+      "lon": 36.3,
+      "capacity": 4000000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-41",
+      "name": "АО «Птицефабрика «Боровская»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Тюменская область",
+      "region_geo": "Tyumen'",
+      "lat": 57.15,
+      "lon": 65.53,
+      "capacity": 3800000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-42",
+      "name": "ООО «Птицефабрика «Рефтинская»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Свердловская область",
+      "region_geo": "Sverdlovsk",
+      "lat": 57.0,
+      "lon": 60.0,
+      "capacity": 3500000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-43",
+      "name": "ООО «Птицефабрика «Свердловская»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Свердловская область",
+      "region_geo": "Sverdlovsk",
+      "lat": 56.85,
+      "lon": 60.6,
+      "capacity": 3200000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-44",
+      "name": "АО «Птицефабрика «Среднеуральская»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Свердловская область",
+      "region_geo": "Sverdlovsk",
+      "lat": 57.0,
+      "lon": 60.5,
+      "capacity": 3000000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-45",
+      "name": "ООО «Птицефабрика «Ирбитская»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Свердловская область",
+      "region_geo": "Sverdlovsk",
+      "lat": 57.4,
+      "lon": 63.1,
+      "capacity": 2800000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-46",
+      "name": "ООО «Птицефабрика «Омская»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Омская область",
+      "region_geo": "Omsk",
+      "lat": 55.0,
+      "lon": 73.37,
+      "capacity": 2500000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-47",
+      "name": "АО «Птицефабрика «Сибирская»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Новосибирская область",
+      "region_geo": "Novosibirsk",
+      "lat": 55.03,
+      "lon": 82.92,
+      "capacity": 2300000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-48",
+      "name": "ООО «Птицефабрика «Красноярская»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Красноярский край",
+      "region_geo": "Krasnoyarsk",
+      "lat": 56.01,
+      "lon": 92.85,
+      "capacity": 2000000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-49",
+      "name": "ООО «Птицефабрика «Алтайская»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Алтайский край",
+      "region_geo": "Altay",
+      "lat": 52.55,
+      "lon": 78.62,
+      "capacity": 1800000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-50",
+      "name": "ООО «Птицефабрика «Томская»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Томская область",
+      "region_geo": "Tomsk",
+      "lat": 56.48,
+      "lon": 84.95,
+      "capacity": 1500000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-51",
+      "name": "ООО «Птицефабрика «Кемеровская»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Кемеровская область",
+      "region_geo": "Kemerovo",
+      "lat": 54.67,
+      "lon": 86.17,
+      "capacity": 1400000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-52",
+      "name": "ООО «Птицефабрика «Забайкальская»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Забайкальский край",
+      "region_geo": "Chita",
+      "lat": 52.04,
+      "lon": 113.5,
+      "capacity": 1200000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-53",
+      "name": "ООО «Птицефабрика «Приморская»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Приморский край",
+      "region_geo": "Primor'ye",
+      "lat": 43.12,
+      "lon": 131.91,
+      "capacity": 1100000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-54",
+      "name": "ООО «Птицефабрика «Хабаровская»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Хабаровский край",
+      "region_geo": "Khabarovsk",
+      "lat": 48.48,
+      "lon": 135.08,
+      "capacity": 1000000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "poultry-55",
+      "name": "ООО «Птицефабрика «Амурская»",
+      "type": "poultry_farm",
+      "type_ru": "Птицефабрика",
+      "region": "Амурская область",
+      "region_geo": "Amur",
+      "lat": 50.29,
+      "lon": 127.54,
+      "capacity": 900000,
+      "capacity_unit": "голов",
+      "risk_diseases": [
+        "hpai",
+        "newcastle",
+        "fowl_cholera",
+        "pullorum",
+        "infectious_bursal_disease",
+        "marek",
+        "infectious_bronchitis"
+      ]
+    },
+    {
+      "id": "dairy-56",
+      "name": "АО «Агрокомплекс «Кугесинский»",
+      "type": "dairy_farm",
+      "type_ru": "Молочный комплекс",
+      "region": "Чувашская Республика",
+      "region_geo": "Chuvash",
+      "lat": 55.53,
+      "lon": 46.33,
+      "capacity": 4500,
+      "capacity_unit": "голов КРС",
+      "risk_diseases": [
+        "brucellosis",
+        "btb",
+        "leukosis",
+        "bluetongue",
+        "fmd",
+        "listeriosis",
+        "q_fever"
+      ]
+    },
+    {
+      "id": "dairy-57",
+      "name": "ООО «Красноозёрское»",
+      "type": "dairy_farm",
+      "type_ru": "Молочный комплекс",
+      "region": "Алтайский край",
+      "region_geo": "Altay",
+      "lat": 53.5,
+      "lon": 79.5,
+      "capacity": 4000,
+      "capacity_unit": "голов КРС",
+      "risk_diseases": [
+        "brucellosis",
+        "btb",
+        "leukosis",
+        "bluetongue",
+        "fmd",
+        "listeriosis",
+        "q_fever"
+      ]
+    },
+    {
+      "id": "dairy-58",
+      "name": "ООО «Дубровицкое»",
+      "type": "dairy_farm",
+      "type_ru": "Молочный комплекс",
+      "region": "Московская область",
+      "region_geo": "Moskovskaya",
+      "lat": 55.4,
+      "lon": 37.7,
+      "capacity": 3500,
+      "capacity_unit": "голов КРС",
+      "risk_diseases": [
+        "brucellosis",
+        "btb",
+        "leukosis",
+        "bluetongue",
+        "fmd",
+        "listeriosis",
+        "q_fever"
+      ]
+    },
+    {
+      "id": "dairy-59",
+      "name": "АО «Племзавод «Первомайский»",
+      "type": "dairy_farm",
+      "type_ru": "Молочный комплекс",
+      "region": "Воронежская область",
+      "region_geo": "Voronezh",
+      "lat": 51.4,
+      "lon": 39.2,
+      "capacity": 3200,
+      "capacity_unit": "голов КРС",
+      "risk_diseases": [
+        "brucellosis",
+        "btb",
+        "leukosis",
+        "bluetongue",
+        "fmd",
+        "listeriosis",
+        "q_fever"
+      ]
+    },
+    {
+      "id": "dairy-60",
+      "name": "ООО «Совхоз «Ленинский»",
+      "type": "dairy_farm",
+      "type_ru": "Молочный комплекс",
+      "region": "Тульская область",
+      "region_geo": "Tula",
+      "lat": 54.1,
+      "lon": 37.6,
+      "capacity": 3000,
+      "capacity_unit": "голов КРС",
+      "risk_diseases": [
+        "brucellosis",
+        "btb",
+        "leukosis",
+        "bluetongue",
+        "fmd",
+        "listeriosis",
+        "q_fever"
+      ]
+    },
+    {
+      "id": "dairy-61",
+      "name": "ООО «Молочный комбинат «Воронежский»",
+      "type": "dairy_farm",
+      "type_ru": "Молочный комплекс",
+      "region": "Воронежская область",
+      "region_geo": "Voronezh",
+      "lat": 51.67,
+      "lon": 39.21,
+      "capacity": 2800,
+      "capacity_unit": "голов КРС",
+      "risk_diseases": [
+        "brucellosis",
+        "btb",
+        "leukosis",
+        "bluetongue",
+        "fmd",
+        "listeriosis",
+        "q_fever"
+      ]
+    },
+    {
+      "id": "dairy-62",
+      "name": "АО «Племзавод «Разуменский» — молоко",
+      "type": "dairy_farm",
+      "type_ru": "Молочный комплекс",
+      "region": "Белгородская область",
+      "region_geo": "Belgorod",
+      "lat": 50.45,
+      "lon": 36.4,
+      "capacity": 2500,
+      "capacity_unit": "голов КРС",
+      "risk_diseases": [
+        "brucellosis",
+        "btb",
+        "leukosis",
+        "bluetongue",
+        "fmd",
+        "listeriosis",
+        "q_fever"
+      ]
+    },
+    {
+      "id": "dairy-63",
+      "name": "ООО «АПК «Молгресс»",
+      "type": "dairy_farm",
+      "type_ru": "Молочный комплекс",
+      "region": "Кировская область",
+      "region_geo": "Kirov",
+      "lat": 58.6,
+      "lon": 49.67,
+      "capacity": 2300,
+      "capacity_unit": "голов КРС",
+      "risk_diseases": [
+        "brucellosis",
+        "btb",
+        "leukosis",
+        "bluetongue",
+        "fmd",
+        "listeriosis",
+        "q_fever"
+      ]
+    },
+    {
+      "id": "dairy-64",
+      "name": "ООО «Сибирская нива»",
+      "type": "dairy_farm",
+      "type_ru": "Молочный комплекс",
+      "region": "Новосибирская область",
+      "region_geo": "Novosibirsk",
+      "lat": 54.0,
+      "lon": 83.0,
+      "capacity": 2200,
+      "capacity_unit": "голов КРС",
+      "risk_diseases": [
+        "brucellosis",
+        "btb",
+        "leukosis",
+        "bluetongue",
+        "fmd",
+        "listeriosis",
+        "q_fever"
+      ]
+    },
+    {
+      "id": "dairy-65",
+      "name": "ООО «Планета»",
+      "type": "dairy_farm",
+      "type_ru": "Молочный комплекс",
+      "region": "Красноярский край",
+      "region_geo": "Krasnoyarsk",
+      "lat": 56.0,
+      "lon": 92.8,
+      "capacity": 2000,
+      "capacity_unit": "голов КРС",
+      "risk_diseases": [
+        "brucellosis",
+        "btb",
+        "leukosis",
+        "bluetongue",
+        "fmd",
+        "listeriosis",
+        "q_fever"
+      ]
+    },
+    {
+      "id": "dairy-66",
+      "name": "ООО «Агрофирма «Труфаново»",
+      "type": "dairy_farm",
+      "type_ru": "Молочный комплекс",
+      "region": "Тверская область",
+      "region_geo": "Tver'",
+      "lat": 56.86,
+      "lon": 35.9,
+      "capacity": 1800,
+      "capacity_unit": "голов КРС",
+      "risk_diseases": [
+        "brucellosis",
+        "btb",
+        "leukosis",
+        "bluetongue",
+        "fmd",
+        "listeriosis",
+        "q_fever"
+      ]
+    },
+    {
+      "id": "dairy-67",
+      "name": "ООО «Агрокомплекс «Залесье»",
+      "type": "dairy_farm",
+      "type_ru": "Молочный комплекс",
+      "region": "Ярославская область",
+      "region_geo": "Yaroslavl'",
+      "lat": 57.63,
+      "lon": 39.87,
+      "capacity": 1600,
+      "capacity_unit": "голов КРС",
+      "risk_diseases": [
+        "brucellosis",
+        "btb",
+        "leukosis",
+        "bluetongue",
+        "fmd",
+        "listeriosis",
+        "q_fever"
+      ]
+    },
+    {
+      "id": "dairy-68",
+      "name": "АО «Учхоз «Тулинское»",
+      "type": "dairy_farm",
+      "type_ru": "Молочный комплекс",
+      "region": "Новосибирская область",
+      "region_geo": "Novosibirsk",
+      "lat": 54.9,
+      "lon": 82.9,
+      "capacity": 1500,
+      "capacity_unit": "голов КРС",
+      "risk_diseases": [
+        "brucellosis",
+        "btb",
+        "leukosis",
+        "bluetongue",
+        "fmd",
+        "listeriosis",
+        "q_fever"
+      ]
+    },
+    {
+      "id": "dairy-69",
+      "name": "ООО «Молочная ферма «Калинкина»",
+      "type": "dairy_farm",
+      "type_ru": "Молочный комплекс",
+      "region": "Республика Мордовия",
+      "region_geo": "Mordovia",
+      "lat": 54.18,
+      "lon": 45.51,
+      "capacity": 1400,
+      "capacity_unit": "голов КРС",
+      "risk_diseases": [
+        "brucellosis",
+        "btb",
+        "leukosis",
+        "bluetongue",
+        "fmd",
+        "listeriosis",
+        "q_fever"
+      ]
+    },
+    {
+      "id": "dairy-70",
+      "name": "ООО «АПК «Куженерский»",
+      "type": "dairy_farm",
+      "type_ru": "Молочный комплекс",
+      "region": "Республика Марий Эл",
+      "region_geo": "Mariy-El",
+      "lat": 56.64,
+      "lon": 47.88,
+      "capacity": 1200,
+      "capacity_unit": "голов КРС",
+      "risk_diseases": [
+        "brucellosis",
+        "btb",
+        "leukosis",
+        "bluetongue",
+        "fmd",
+        "listeriosis",
+        "q_fever"
+      ]
+    },
+    {
+      "id": "meat-71",
+      "name": "АО «Микояновский мясокомбинат»",
+      "type": "meat_plant",
+      "type_ru": "Мясокомбинат",
+      "region": "Москва",
+      "region_geo": "Moskva",
+      "lat": 55.76,
+      "lon": 37.62,
+      "capacity": 500,
+      "capacity_unit": "т/сутки",
+      "risk_diseases": [
+        "anthrax",
+        "trichinellosis",
+        "cysticercosis",
+        "echinococcosis"
+      ]
+    },
+    {
+      "id": "meat-72",
+      "name": "ООО «Мясокомбинат «Останкино»",
+      "type": "meat_plant",
+      "type_ru": "Мясокомбинат",
+      "region": "Москва",
+      "region_geo": "Moskva",
+      "lat": 55.83,
+      "lon": 37.6,
+      "capacity": 450,
+      "capacity_unit": "т/сутки",
+      "risk_diseases": [
+        "anthrax",
+        "trichinellosis",
+        "cysticercosis",
+        "echinococcosis"
+      ]
+    },
+    {
+      "id": "meat-73",
+      "name": "АО «Черкизовский мясоперерабатывающий завод»",
+      "type": "meat_plant",
+      "type_ru": "Мясокомбинат",
+      "region": "Москва",
+      "region_geo": "Moskva",
+      "lat": 55.79,
+      "lon": 37.7,
+      "capacity": 400,
+      "capacity_unit": "т/сутки",
+      "risk_diseases": [
+        "anthrax",
+        "trichinellosis",
+        "cysticercosis",
+        "echinococcosis"
+      ]
+    },
+    {
+      "id": "meat-74",
+      "name": "ООО «Мясокомбинат «Кампомос»",
+      "type": "meat_plant",
+      "type_ru": "Мясокомбинат",
+      "region": "Москва",
+      "region_geo": "Moskva",
+      "lat": 55.6,
+      "lon": 37.5,
+      "capacity": 350,
+      "capacity_unit": "т/сутки",
+      "risk_diseases": [
+        "anthrax",
+        "trichinellosis",
+        "cysticercosis",
+        "echinococcosis"
+      ]
+    },
+    {
+      "id": "meat-75",
+      "name": "АО «Омский мясокомбинат»",
+      "type": "meat_plant",
+      "type_ru": "Мясокомбинат",
+      "region": "Омская область",
+      "region_geo": "Omsk",
+      "lat": 55.0,
+      "lon": 73.37,
+      "capacity": 300,
+      "capacity_unit": "т/сутки",
+      "risk_diseases": [
+        "anthrax",
+        "trichinellosis",
+        "cysticercosis",
+        "echinococcosis"
+      ]
+    },
+    {
+      "id": "meat-76",
+      "name": "ООО «Мясокомбинат «Брянский»",
+      "type": "meat_plant",
+      "type_ru": "Мясокомбинат",
+      "region": "Брянская область",
+      "region_geo": "Bryansk",
+      "lat": 53.25,
+      "lon": 34.37,
+      "capacity": 280,
+      "capacity_unit": "т/сутки",
+      "risk_diseases": [
+        "anthrax",
+        "trichinellosis",
+        "cysticercosis",
+        "echinococcosis"
+      ]
+    },
+    {
+      "id": "meat-77",
+      "name": "АО «Мясокомбинат «Пензенский»",
+      "type": "meat_plant",
+      "type_ru": "Мясокомбинат",
+      "region": "Пензенская область",
+      "region_geo": "Penza",
+      "lat": 53.19,
+      "lon": 45.0,
+      "capacity": 250,
+      "capacity_unit": "т/сутки",
+      "risk_diseases": [
+        "anthrax",
+        "trichinellosis",
+        "cysticercosis",
+        "echinococcosis"
+      ]
+    },
+    {
+      "id": "meat-78",
+      "name": "ООО «Мясокомбинат «Рославльский»",
+      "type": "meat_plant",
+      "type_ru": "Мясокомбинат",
+      "region": "Смоленская область",
+      "region_geo": "Smolensk",
+      "lat": 53.95,
+      "lon": 32.86,
+      "capacity": 220,
+      "capacity_unit": "т/сутки",
+      "risk_diseases": [
+        "anthrax",
+        "trichinellosis",
+        "cysticercosis",
+        "echinococcosis"
+      ]
+    },
+    {
+      "id": "meat-79",
+      "name": "АО «Великолукский мясокомбинат»",
+      "type": "meat_plant",
+      "type_ru": "Мясокомбинат",
+      "region": "Псковская область",
+      "region_geo": "Pskov",
+      "lat": 56.34,
+      "lon": 30.51,
+      "capacity": 200,
+      "capacity_unit": "т/сутки",
+      "risk_diseases": [
+        "anthrax",
+        "trichinellosis",
+        "cysticercosis",
+        "echinococcosis"
+      ]
+    },
+    {
+      "id": "meat-80",
+      "name": "ООО «Мясокомбинат «Саранский»",
+      "type": "meat_plant",
+      "type_ru": "Мясокомбинат",
+      "region": "Республика Мордовия",
+      "region_geo": "Mordovia",
+      "lat": 54.18,
+      "lon": 45.18,
+      "capacity": 180,
+      "capacity_unit": "т/сутки",
+      "risk_diseases": [
+        "anthrax",
+        "trichinellosis",
+        "cysticercosis",
+        "echinococcosis"
+      ]
+    }
+  ]
+}

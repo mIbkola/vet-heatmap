@@ -1,0 +1,20 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "external": {},
+    "html": "<html><head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n  <noscript><meta http-equiv=\"refresh\" content=\"0; url=/exhkqyad\"></noscript>\n<style>\n    .container {\n      display: flex;\n      align-content: center;\n      align-items: center;\n      justify-content: center;\n      flex-direction: column;\n      min-height: 100vh;\n    }\n    .load {\n      color: grey;\n      font-size: 3vh;\n    }\n    .spinner {\n      display: block;\n      background:  url('//servicepipe.ru/loaders/default.gif');\n      width: 64px;\n      height: 64px;\n    }\n</style></head>\n\n<body>\n  <div id=\"id_spinner\" class=\"container\"><div class=\"load\"></div><div class=\"spinner\"></div></div>\n  <div id=\"id_captcha_frame_div\" style=\"display: none;height: 100vh;\"></div>\n  <script type=\"text/javascript\" src=\"https://servicepipe.ru/static/jsrsasign-all-min.js\"></script>\n  <script type=\"text/javascript\">\n\nfunction get_cookie_spsn() {\n  return \"spsn=1781627961397_\";\n}\nfunction get_cookie_spid() {\n  return \"spid=1781627961397_81b58766dff16014b2ea68ca6a7b9cef_vw2p3pitxl68tv3l\";\n}\nfunction get_options() {\n  return JSON.parse('{\"kncdipiytd\":\"1781627961397_378afdc1705e25ac7a2ef427\",\"iamehkqlib\":\"4f11b4322d3497aee907a2e4fab5daff\",\"woprmswjtq\":9115,\"ojqqomaznz\":\"_qoOY.-UrMDpygkNarl2S4YfZxXEVu.hDFZrJ5OOxGUwZ\",\"bmdxprfwqa\":17,\"twdoonmfjr\":1,\"sauoqhgdwa\":false,\"is_captcha\":false,\"0hjsihgukl\":false}');\n}\nfunction get_location() {\n  return \"https://tass.ru/v-strane/10628881\";\n}\n\n  </script>\n  <script type=\"text/javascript\" src=\"https://servicepipe.ru/static/checkjs/9f4edc/2o5_dDehpC.js\" integrity=\"sha256-n07clIZNsOH5+7kRxBbgjKGOKf1kg/w0nSG8FFNKCNo=\" crossorigin=\"anonymous\"></script>\n\n\n</body></html>",
+    "metadata": {},
+    "title": "",
+    "url": "https://tass.ru/v-strane/10628881",
+    "usage": {
+      "tokens": 581
+    }
+  },
+  "meta": {
+    "usage": {
+      "tokens": 581
+    }
+  },
+  "status": 20000
+}

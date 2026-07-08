@@ -1,0 +1,698 @@
+[
+  {
+    "region": "Adygey",
+    "file": "muni/adygey.topojson",
+    "size_bytes": 6620,
+    "features": 8,
+    "points_before": 394,
+    "points_after": 250
+  },
+  {
+    "region": "Altay",
+    "file": "muni/altay.topojson",
+    "size_bytes": 53864,
+    "features": 68,
+    "points_before": 3792,
+    "points_after": 2908
+  },
+  {
+    "region": "Amur",
+    "file": "muni/amur.topojson",
+    "size_bytes": 31893,
+    "features": 27,
+    "points_before": 3042,
+    "points_after": 2290
+  },
+  {
+    "region": "Arkhangel'sk",
+    "file": "muni/arkhangel-sk.topojson",
+    "size_bytes": 156738,
+    "features": 28,
+    "points_before": 44464,
+    "points_after": 12592
+  },
+  {
+    "region": "Astrakhan'",
+    "file": "muni/astrakhan.topojson",
+    "size_bytes": 12492,
+    "features": 13,
+    "points_before": 979,
+    "points_after": 621
+  },
+  {
+    "region": "Bashkortostan",
+    "file": "muni/bashkortostan.topojson",
+    "size_bytes": 57286,
+    "features": 69,
+    "points_before": 3898,
+    "points_after": 3030
+  },
+  {
+    "region": "Belgorod",
+    "file": "muni/belgorod.topojson",
+    "size_bytes": 22236,
+    "features": 27,
+    "points_before": 1562,
+    "points_after": 988
+  },
+  {
+    "region": "Bryansk",
+    "file": "muni/bryansk.topojson",
+    "size_bytes": 22093,
+    "features": 31,
+    "points_before": 1295,
+    "points_after": 905
+  },
+  {
+    "region": "Buryat",
+    "file": "muni/buryat.topojson",
+    "size_bytes": 30692,
+    "features": 25,
+    "points_before": 3017,
+    "points_after": 2394
+  },
+  {
+    "region": "Chechnya",
+    "file": "muni/chechnya.topojson",
+    "size_bytes": 13522,
+    "features": 16,
+    "points_before": 855,
+    "points_after": 537
+  },
+  {
+    "region": "Chelyabinsk",
+    "file": "muni/chelyabinsk.topojson",
+    "size_bytes": 38017,
+    "features": 45,
+    "points_before": 2729,
+    "points_after": 1881
+  },
+  {
+    "region": "Chukot",
+    "file": "muni/chukot.topojson",
+    "size_bytes": 79341,
+    "features": 8,
+    "points_before": 24048,
+    "points_after": 7327
+  },
+  {
+    "region": "Chuvash",
+    "file": "muni/chuvash.topojson",
+    "size_bytes": 18392,
+    "features": 28,
+    "points_before": 963,
+    "points_after": 647
+  },
+  {
+    "region": "CityofSt.Petersburg",
+    "file": "muni/cityofst-petersburg.topojson",
+    "size_bytes": 2773,
+    "features": 1,
+    "points_before": 414,
+    "points_after": 146
+  },
+  {
+    "region": "Dagestan",
+    "file": "muni/dagestan.topojson",
+    "size_bytes": 37369,
+    "features": 47,
+    "points_before": 2681,
+    "points_after": 1549
+  },
+  {
+    "region": "Gorno-Altay",
+    "file": "muni/gorno-altay.topojson",
+    "size_bytes": 13142,
+    "features": 11,
+    "points_before": 1249,
+    "points_after": 836
+  },
+  {
+    "region": "Ingush",
+    "file": "muni/ingush.topojson",
+    "size_bytes": 3118,
+    "features": 3,
+    "points_before": 192,
+    "points_after": 115
+  },
+  {
+    "region": "Irkutsk",
+    "file": "muni/irkutsk.topojson",
+    "size_bytes": 55885,
+    "features": 48,
+    "points_before": 5372,
+    "points_after": 4449
+  },
+  {
+    "region": "Ivanovo",
+    "file": "muni/ivanovo.topojson",
+    "size_bytes": 18310,
+    "features": 28,
+    "points_before": 783,
+    "points_after": 651
+  },
+  {
+    "region": "Kabardin-Balkar",
+    "file": "muni/kabardin-balkar.topojson",
+    "size_bytes": 9414,
+    "features": 12,
+    "points_before": 565,
+    "points_after": 370
+  },
+  {
+    "region": "Kaliningrad",
+    "file": "muni/kaliningrad.topojson",
+    "size_bytes": 14362,
+    "features": 17,
+    "points_before": 1645,
+    "points_after": 607
+  },
+  {
+    "region": "Kalmyk",
+    "file": "muni/kalmyk.topojson",
+    "size_bytes": 12823,
+    "features": 14,
+    "points_before": 812,
+    "points_after": 664
+  },
+  {
+    "region": "Kaluga",
+    "file": "muni/kaluga.topojson",
+    "size_bytes": 20400,
+    "features": 28,
+    "points_before": 1051,
+    "points_after": 828
+  },
+  {
+    "region": "Kamchatka",
+    "file": "muni/kamchatka.topojson",
+    "size_bytes": 52060,
+    "features": 11,
+    "points_before": 13307,
+    "points_after": 4093
+  },
+  {
+    "region": "Karachay-Cherkess",
+    "file": "muni/karachay-cherkess.topojson",
+    "size_bytes": 8981,
+    "features": 11,
+    "points_before": 551,
+    "points_after": 381
+  },
+  {
+    "region": "Karelia",
+    "file": "muni/karelia.topojson",
+    "size_bytes": 55843,
+    "features": 26,
+    "points_before": 8826,
+    "points_after": 4227
+  },
+  {
+    "region": "Kemerovo",
+    "file": "muni/kemerovo.topojson",
+    "size_bytes": 27392,
+    "features": 36,
+    "points_before": 1876,
+    "points_after": 1419
+  },
+  {
+    "region": "Khabarovsk",
+    "file": "muni/khabarovsk.topojson",
+    "size_bytes": 55105,
+    "features": 23,
+    "points_before": 9407,
+    "points_after": 4456
+  },
+  {
+    "region": "Khakass",
+    "file": "muni/khakass.topojson",
+    "size_bytes": 10120,
+    "features": 10,
+    "points_before": 669,
+    "points_after": 589
+  },
+  {
+    "region": "Khanty-Mansiy",
+    "file": "muni/khanty-mansiy.topojson",
+    "size_bytes": 23320,
+    "features": 22,
+    "points_before": 1980,
+    "points_after": 1582
+  },
+  {
+    "region": "Kirov",
+    "file": "muni/kirov.topojson",
+    "size_bytes": 37947,
+    "features": 43,
+    "points_before": 2685,
+    "points_after": 1966
+  },
+  {
+    "region": "Komi",
+    "file": "muni/komi.topojson",
+    "size_bytes": 22486,
+    "features": 23,
+    "points_before": 1652,
+    "points_after": 1383
+  },
+  {
+    "region": "Kostroma",
+    "file": "muni/kostroma.topojson",
+    "size_bytes": 22019,
+    "features": 31,
+    "points_before": 1129,
+    "points_after": 972
+  },
+  {
+    "region": "Krasnodar",
+    "file": "muni/krasnodar.topojson",
+    "size_bytes": 43844,
+    "features": 53,
+    "points_before": 3789,
+    "points_after": 2123
+  },
+  {
+    "region": "Krasnoyarsk",
+    "file": "muni/krasnoyarsk.topojson",
+    "size_bytes": 268960,
+    "features": 58,
+    "points_before": 64649,
+    "points_after": 22402
+  },
+  {
+    "region": "Kurgan",
+    "file": "muni/kurgan.topojson",
+    "size_bytes": 24292,
+    "features": 26,
+    "points_before": 1950,
+    "points_after": 1354
+  },
+  {
+    "region": "Kursk",
+    "file": "muni/kursk.topojson",
+    "size_bytes": 24924,
+    "features": 32,
+    "points_before": 1512,
+    "points_after": 1014
+  },
+  {
+    "region": "Leningrad",
+    "file": "muni/leningrad.topojson",
+    "size_bytes": 41364,
+    "features": 35,
+    "points_before": 4755,
+    "points_after": 2373
+  },
+  {
+    "region": "Lipetsk",
+    "file": "muni/lipetsk.topojson",
+    "size_bytes": 17687,
+    "features": 22,
+    "points_before": 1229,
+    "points_after": 807
+  },
+  {
+    "region": "Magadan",
+    "file": "muni/magadan.topojson",
+    "size_bytes": 35712,
+    "features": 9,
+    "points_before": 6914,
+    "points_after": 3006
+  },
+  {
+    "region": "Mariy-El",
+    "file": "muni/mariy-el.topojson",
+    "size_bytes": 13212,
+    "features": 16,
+    "points_before": 847,
+    "points_after": 608
+  },
+  {
+    "region": "Mordovia",
+    "file": "muni/mordovia.topojson",
+    "size_bytes": 20960,
+    "features": 25,
+    "points_before": 1277,
+    "points_after": 837
+  },
+  {
+    "region": "MoscowCity",
+    "file": "muni/moscowcity.topojson",
+    "size_bytes": 8412,
+    "features": 10,
+    "points_before": 901,
+    "points_after": 310
+  },
+  {
+    "region": "Moskva",
+    "file": "muni/moskva.topojson",
+    "size_bytes": 78014,
+    "features": 81,
+    "points_before": 6663,
+    "points_after": 3462
+  },
+  {
+    "region": "Murmansk",
+    "file": "muni/murmansk.topojson",
+    "size_bytes": 43603,
+    "features": 17,
+    "points_before": 9371,
+    "points_after": 3181
+  },
+  {
+    "region": "Nenets",
+    "file": "muni/nenets.topojson",
+    "size_bytes": 38775,
+    "features": 2,
+    "points_before": 12372,
+    "points_after": 2961
+  },
+  {
+    "region": "Nizhegorod",
+    "file": "muni/nizhegorod.topojson",
+    "size_bytes": 45583,
+    "features": 57,
+    "points_before": 3011,
+    "points_after": 1983
+  },
+  {
+    "region": "NorthOssetia",
+    "file": "muni/northossetia.topojson",
+    "size_bytes": 7833,
+    "features": 9,
+    "points_before": 490,
+    "points_after": 320
+  },
+  {
+    "region": "Novgorod",
+    "file": "muni/novgorod.topojson",
+    "size_bytes": 22778,
+    "features": 25,
+    "points_before": 1653,
+    "points_after": 1177
+  },
+  {
+    "region": "Novosibirsk",
+    "file": "muni/novosibirsk.topojson",
+    "size_bytes": 33831,
+    "features": 36,
+    "points_before": 2563,
+    "points_after": 2015
+  },
+  {
+    "region": "Omsk",
+    "file": "muni/omsk.topojson",
+    "size_bytes": 34040,
+    "features": 37,
+    "points_before": 2751,
+    "points_after": 2132
+  },
+  {
+    "region": "Orel",
+    "file": "muni/orel.topojson",
+    "size_bytes": 19253,
+    "features": 27,
+    "points_before": 844,
+    "points_after": 783
+  },
+  {
+    "region": "Orenburg",
+    "file": "muni/orenburg.topojson",
+    "size_bytes": 40884,
+    "features": 45,
+    "points_before": 3564,
+    "points_after": 2366
+  },
+  {
+    "region": "Penza",
+    "file": "muni/penza.topojson",
+    "size_bytes": 22349,
+    "features": 32,
+    "points_before": 1190,
+    "points_after": 928
+  },
+  {
+    "region": "Perm'",
+    "file": "muni/perm.topojson",
+    "size_bytes": 39469,
+    "features": 50,
+    "points_before": 2653,
+    "points_after": 2087
+  },
+  {
+    "region": "Primor'ye",
+    "file": "muni/primor-ye.topojson",
+    "size_bytes": 44633,
+    "features": 33,
+    "points_before": 6504,
+    "points_after": 2949
+  },
+  {
+    "region": "Pskov",
+    "file": "muni/pskov.topojson",
+    "size_bytes": 26163,
+    "features": 28,
+    "points_before": 2407,
+    "points_after": 1301
+  },
+  {
+    "region": "Rostov",
+    "file": "muni/rostov.topojson",
+    "size_bytes": 48868,
+    "features": 60,
+    "points_before": 3689,
+    "points_after": 2523
+  },
+  {
+    "region": "Ryazan'",
+    "file": "muni/ryazan.topojson",
+    "size_bytes": 22729,
+    "features": 31,
+    "points_before": 1171,
+    "points_after": 1052
+  },
+  {
+    "region": "Sakha",
+    "file": "muni/sakha.topojson",
+    "size_bytes": 251287,
+    "features": 37,
+    "points_before": 62802,
+    "points_after": 22067
+  },
+  {
+    "region": "Sakhalin",
+    "file": "muni/sakhalin.topojson",
+    "size_bytes": 43643,
+    "features": 22,
+    "points_before": 9973,
+    "points_after": 2975
+  },
+  {
+    "region": "Samara",
+    "file": "muni/samara.topojson",
+    "size_bytes": 25360,
+    "features": 35,
+    "points_before": 1427,
+    "points_after": 1202
+  },
+  {
+    "region": "Saratov",
+    "file": "muni/saratov.topojson",
+    "size_bytes": 36339,
+    "features": 49,
+    "points_before": 2204,
+    "points_after": 1725
+  },
+  {
+    "region": "Smolensk",
+    "file": "muni/smolensk.topojson",
+    "size_bytes": 24619,
+    "features": 32,
+    "points_before": 1628,
+    "points_after": 1189
+  },
+  {
+    "region": "Stavropol'",
+    "file": "muni/stavropol.topojson",
+    "size_bytes": 29274,
+    "features": 35,
+    "points_before": 1972,
+    "points_after": 1477
+  },
+  {
+    "region": "Sverdlovsk",
+    "file": "muni/sverdlovsk.topojson",
+    "size_bytes": 45686,
+    "features": 59,
+    "points_before": 2945,
+    "points_after": 2374
+  },
+  {
+    "region": "Tambov",
+    "file": "muni/tambov.topojson",
+    "size_bytes": 23448,
+    "features": 30,
+    "points_before": 1569,
+    "points_after": 1023
+  },
+  {
+    "region": "Tatarstan",
+    "file": "muni/tatarstan.topojson",
+    "size_bytes": 42962,
+    "features": 53,
+    "points_before": 2814,
+    "points_after": 1951
+  },
+  {
+    "region": "Tomsk",
+    "file": "muni/tomsk.topojson",
+    "size_bytes": 20584,
+    "features": 20,
+    "points_before": 1723,
+    "points_after": 1295
+  },
+  {
+    "region": "Tula",
+    "file": "muni/tula.topojson",
+    "size_bytes": 20531,
+    "features": 31,
+    "points_before": 963,
+    "points_after": 834
+  },
+  {
+    "region": "Tuva",
+    "file": "muni/tuva.topojson",
+    "size_bytes": 20284,
+    "features": 17,
+    "points_before": 1768,
+    "points_after": 1310
+  },
+  {
+    "region": "Tver'",
+    "file": "muni/tver.topojson",
+    "size_bytes": 34737,
+    "features": 49,
+    "points_before": 1976,
+    "points_after": 1588
+  },
+  {
+    "region": "Tyumen'",
+    "file": "muni/tyumen.topojson",
+    "size_bytes": 23250,
+    "features": 26,
+    "points_before": 1681,
+    "points_after": 1327
+  },
+  {
+    "region": "Udmurt",
+    "file": "muni/udmurt.topojson",
+    "size_bytes": 23414,
+    "features": 29,
+    "points_before": 1413,
+    "points_after": 1033
+  },
+  {
+    "region": "Ul'yanovsk",
+    "file": "muni/ul-yanovsk.topojson",
+    "size_bytes": 20585,
+    "features": 25,
+    "points_before": 1237,
+    "points_after": 956
+  },
+  {
+    "region": "Vladimir",
+    "file": "muni/vladimir.topojson",
+    "size_bytes": 17502,
+    "features": 23,
+    "points_before": 964,
+    "points_after": 781
+  },
+  {
+    "region": "Volgograd",
+    "file": "muni/volgograd.topojson",
+    "size_bytes": 31328,
+    "features": 38,
+    "points_before": 1998,
+    "points_after": 1657
+  },
+  {
+    "region": "Vologda",
+    "file": "muni/vologda.topojson",
+    "size_bytes": 31976,
+    "features": 30,
+    "points_before": 2629,
+    "points_after": 2108
+  },
+  {
+    "region": "Voronezh",
+    "file": "muni/voronezh.topojson",
+    "size_bytes": 29898,
+    "features": 36,
+    "points_before": 2199,
+    "points_after": 1368
+  },
+  {
+    "region": "Yamal-Nenets",
+    "file": "muni/yamal-nenets.topojson",
+    "size_bytes": 107664,
+    "features": 12,
+    "points_before": 26900,
+    "points_after": 8552
+  },
+  {
+    "region": "Yaroslavl'",
+    "file": "muni/yaroslavl.topojson",
+    "size_bytes": 18755,
+    "features": 23,
+    "points_before": 1159,
+    "points_after": 960
+  },
+  {
+    "region": "Yevrey",
+    "file": "muni/yevrey.topojson",
+    "size_bytes": 5694,
+    "features": 5,
+    "points_before": 454,
+    "points_after": 289
+  },
+  {
+    "region": "Zabaykal'ye",
+    "file": "muni/zabaykal-ye.topojson",
+    "size_bytes": 43857,
+    "features": 35,
+    "points_before": 4474,
+    "points_after": 3290
+  },
+  {
+    "region": "Donets'k",
+    "file": "muni/donets-k.topojson",
+    "size_bytes": 53541,
+    "features": 48,
+    "points_before": 5685,
+    "points_after": 3214
+  },
+  {
+    "region": "Kherson",
+    "file": "muni/kherson.topojson",
+    "size_bytes": 26210,
+    "features": 20,
+    "points_before": 3597,
+    "points_after": 1461
+  },
+  {
+    "region": "Luhans'k",
+    "file": "muni/luhans-k.topojson",
+    "size_bytes": 42265,
+    "features": 32,
+    "points_before": 4576,
+    "points_after": 2466
+  },
+  {
+    "region": "Zaporizhia",
+    "file": "muni/zaporizhia.topojson",
+    "size_bytes": 30160,
+    "features": 25,
+    "points_before": 3404,
+    "points_after": 1707
+  }
+]

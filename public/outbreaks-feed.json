@@ -1,0 +1,79 @@
+{
+  "lastUpdated": "2026-06-18",
+  "sources": [
+    {
+      "name": "ФСВПС — Оперативная информация",
+      "url": "https://fsvps.gov.ru/jepizooticheskaja-situacija/rossija/operativnye-informacionnye-soobshhenija",
+      "items": [
+        {
+          "title": "Эпизоотическая ситуация по АЧС в Российской Федерации",
+          "link": "https://fsvps.gov.ru/jepizooticheskaja-situacija/rossija/jepidsituacija-po-achs-v-rossijskoj-federacii/hronologija-achs",
+          "pubDate": "2026-06-18",
+          "source": "fsvps.gov.ru",
+          "summary": "Активные вспышки АЧС на территории РФ. Хронология вспышек 2024-2026 гг."
+        },
+        {
+          "title": "Эпизоотическая ситуация по ящуру в Российской Федерации",
+          "link": "https://fsvps.gov.ru/tags/jashhur",
+          "pubDate": "2026-06-15",
+          "source": "fsvps.gov.ru",
+          "summary": "Мониторинг ящура. Зонирование территории РФ. Вакцинация."
+        },
+        {
+          "title": "Эпизоотическая ситуация по гриппу птиц",
+          "link": "https://fsvps.gov.ru/jepizooticheskaja-situacija/rossija/jepidsituacija-po-grippu-ptic-v-rossijskoj-federacii",
+          "pubDate": "2026-06-12",
+          "source": "fsvps.gov.ru",
+          "summary": "Мониторинг гриппа птиц в РФ и мире."
+        },
+        {
+          "title": "Заразный узелковый дерматит КРС в мире",
+          "link": "https://fsvps.gov.ru/files/zaraznyj-uzelkovyj-dermatit-krs-v-mire-2024-g",
+          "pubDate": "2026-06-08",
+          "source": "fsvps.gov.ru",
+          "summary": "Карта распространения нодулярного дерматита КРС в мире (2024 г.)."
+        },
+        {
+          "title": "Оперативная информация по эпизоотической ситуации в РФ",
+          "link": "https://fsvps.gov.ru/jepizooticheskaja-situacija/rossija/operativnye-informacionnye-soobshhenija",
+          "pubDate": "2026-06-05",
+          "source": "fsvps.gov.ru",
+          "summary": "Сводная информация ФСВПС по эпизоотической ситуации в Российской Федерации."
+        }
+      ]
+    },
+    {
+      "name": "ВНИИЗЖ — ФГБУ ВНИИЗЖ",
+      "url": "https://veterinary.arriah.ru",
+      "items": [
+        {
+          "title": "Ящур под контролем: официальное признание ВОЗЖ статуса",
+          "link": "https://veterinary.arriah.ru/jour/article/view/955?locale=ru_RU",
+          "pubDate": "2026-06-01",
+          "source": "veterinary.arriah.ru",
+          "summary": "Россия получила статус ВОЗЖ свободы от ящура с вакцинацией."
+        },
+        {
+          "title": "Мониторинг АЧС — генетический анализ изолятов",
+          "link": "https://www.arriah.ru/upload/iblock/896/wwt6lniqzg76zf5v2vkfwyfmbgr5y4cg.pdf",
+          "pubDate": "2026-05-20",
+          "source": "arriah.ru",
+          "summary": "Сравнительный анализ полногеномных последовательностей изолятов вируса АЧС."
+        }
+      ]
+    },
+    {
+      "name": "ВОЗЖ (WOAH)",
+      "url": "https://www.woah.org/en/disease/african-swine-fever",
+      "items": [
+        {
+          "title": "ASF Report #62 — Global situation update",
+          "link": "https://www.woah.org/app/uploads/2025/03/asf-report-62.pdf",
+          "pubDate": "2026-05-15",
+          "source": "woah.org",
+          "summary": "Глобальный отчёт ВОЗЖ по АЧС. Возобновление вспышек в Украине."
+        }
+      ]
+    }
+  ]
+}

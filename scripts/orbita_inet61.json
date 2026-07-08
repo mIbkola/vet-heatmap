@@ -1,0 +1,44 @@
+{
+  "code": 200,
+  "data": {
+    "description": "АО ОКТБ «Орбита», интернет-провайдер. Ростовская обл., г. Новочеркасск, ул. Михайловская, 164а.",
+    "external": {
+      "apple-touch-icon": {
+        "https://inet61.net/assets/favicon/apple-touch-icon.png": {}
+      },
+      "icon": {
+        "https://inet61.net/assets/favicon/icon.svg": {
+          "type": "image/svg+xml"
+        },
+        "https://inet61.net/favicon.ico": {}
+      },
+      "manifest": {
+        "https://inet61.net/assets/favicon/android-icon.json": {}
+      },
+      "yandex-tableau-widget": {
+        "https://inet61.net/assets/favicon/yandex-tableau.json": {}
+      }
+    },
+    "html": "<html lang=\"ru\"><head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n<title>Орбита — интернет-провайдер</title>\n<meta name=\"description\" content=\"АО ОКТБ «Орбита», интернет-провайдер. Ростовская обл., г. Новочеркасск, ул. Михайловская, 164а.\">\n<meta name=\"keywords\" content=\"Интернет Новочеркасск,Интернет провайдер Новочеркасск,Интернет-провайдер Новочеркасск,провайдер Новочеркасск,Интернет в Новочеркасске,Интернет Орбита,ОКТБ Орбита,Орбита Новочеркасск,Орбита Интернет,inet61.net,inet61,inet 61,инет61,инет 61,инет 61 нет,быстрый интернет,подключение интернет,дешевый интернет,кабельное телевидение орбита новочеркасск,кабельное тв орбита новочеркасск\">\n\n<!-- favicons -->\n<link href=\"assets/favicon/apple-touch-icon.png\" rel=\"apple-touch-icon\">\n<link href=\"favicon.ico\" rel=\"icon\">\n<link href=\"assets/favicon/icon.svg\" rel=\"icon\" type=\"image/svg+xml\">\n<link href=\"assets/favicon/android-icon.json\" rel=\"manifest\">\n<link href=\"assets/favicon/yandex-tableau.json\" rel=\"yandex-tableau-widget\">\n<meta name=\"msapplication-config\" content=\"assets/favicon/browserconfig.xml\">\n\n<!-- CSS -->\n<!-- <link href=\"https://unpkg.com/bootstrap/dist/css/bootstrap.min.css\" rel=\"stylesheet\"> -->\n<link href=\"assets/bootstrap/css/bootstrap.min.css\" rel=\"stylesheet\">\n<!-- <link href=\"https://unpkg.com/bootstrap-icons/font/bootstrap-icons.min.css\" rel=\"stylesheet\"> -->\n<link href=\"assets/bootstrap-icons/bootstrap-icons.min.css\" rel=\"stylesheet\">\n<!-- <link href=\"https://unpkg.com/aos@next/dist/aos.css\" rel=\"stylesheet\"> -->\n<link href=\"assets/aos/aos.css\" rel=\"stylesheet\">\n<link href=\"assets/style.css\" rel=\"stylesheet\">\n</head>\n<body>\n\n<main class=\"main\">\n\n    <img src=\"assets/background.jpg\" alt=\"\" class=\"\" data-aos=\"fade-in\">\n\n    <div class=\"container\">\n        <div class=\"row gy-4\">\n\n            <div class=\"col-md-6 col-lg-6\" data-aos=\"zoom-out\" data-aos-delay=\"100\">\n                <div class=\"icon-box\">\n                    <div class=\"icon\"><i class=\"bi bi-graph-up\"></i></div>\n                    <h4 class=\"title\"><a href=\"https://220200.ru\" target=\"_blank\">Личный кабинет</a></h4>\n                    <p class=\"description\">Узнать и пополнить ваш баланс</p>\n                </div>\n            </div>\n\n            <div class=\"col-md-6 col-lg-6\" data-aos=\"zoom-out\" data-aos-delay=\"200\">\n                <div class=\"icon-box\">\n                    <div class=\"icon\"><i class=\"bi bi-house-add\"></i></div>\n                    <h4 class=\"title\"><a href=\"https://pon61.ru/tarif/\" target=\"_blank\">Подключиться</a></h4>\n                    <p class=\"description\">Оставить заявку на подключение</p>\n                </div>\n            </div>\n\n        </div>\n    </div>\n\n</main>\n\n<!-- <script src=\"https://unpkg.com/bootstrap/dist/js/bootstrap.bundle.min.js\"></script> -->\n<script src=\"assets/bootstrap/js/bootstrap.bundle.min.js\"></script>\n<!-- <script src=\"https://unpkg.com/aos@next/dist/aos.js\"></script> -->\n<script src=\"assets/aos/aos.js\"></script>\n<script>\nwindow.addEventListener('load', () =>\n{\n    AOS.init({\n        duration: 500,\n        easing: 'ease-in-out',\n        once: true,\n        mirror: false\n    });\n});\n</script>\n\n\n</body></html>",
+    "httpStatus": 200,
+    "httpStatusText": "OK",
+    "metadata": {
+      "description": "АО ОКТБ «Орбита», интернет-провайдер. Ростовская обл., г. Новочеркасск, ул. Михайловская, 164а.",
+      "keywords": "Интернет Новочеркасск,Интернет провайдер Новочеркасск,Интернет-провайдер Новочеркасск,провайдер Новочеркасск,Интернет в Новочеркасске,Интернет Орбита,ОКТБ Орбита,Орбита Новочеркасск,Орбита Интернет,inet61.net,inet61,inet 61,инет61,инет 61,инет 61 нет,быстрый интернет,подключение интернет,дешевый интернет,кабельное телевидение орбита новочеркасск,кабельное тв орбита новочеркасск",
+      "lang": "ru",
+      "msapplication-config": "assets/favicon/browserconfig.xml",
+      "viewport": "width=device-width, initial-scale=1.0"
+    },
+    "title": "Орбита — интернет-провайдер",
+    "url": "https://inet61.net/",
+    "usage": {
+      "tokens": 1020
+    }
+  },
+  "meta": {
+    "usage": {
+      "tokens": 1020
+    }
+  },
+  "status": 20000
+}
